@@ -63,8 +63,9 @@ Through this project, I analyzed:
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/your-username/customer-shopping-behavior-analysis.git
-cd customer-shopping-behavior-analysis
+git clone https://github.com/samikshapawar08/Customer_shopping_behavior_analysis.git
+cd Customer_shopping_behavior_analysis
+
 ```
 
 ### Python Analysis
