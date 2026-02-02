@@ -1,4 +1,4 @@
-👩🏻‍🎓 Customer Shopping Behavior Analysis | Data Analytics Portfolio Project
+**👩🏻‍🎓 Customer Shopping Behavior Analysis | Data Analytics Portfolio Project**
 
 This repository contains my **first hands-on Data Analytics portfolio project**, created as part of my learning journey in Data Analytics.  
 As a student, my objective was to apply concepts of **Python, SQL, and Power BI** on a real-world dataset and understand how an **end-to-end analytics workflow** is executed in professional environments.
@@ -71,7 +71,7 @@ cd Customer_shopping_behavior_analysis
 ### Python Analysis
 Open the notebook:
 ```
-Customer_Shopping_Behavior_Analysis.ipynb
+Customer_shopping_behavior_analysis.ipynb
 ```
 
 This notebook includes:
@@ -86,7 +86,7 @@ This notebook includes:
 - Create a PostgreSQL database
 - Execute queries from:
 ```
-customer_behavior_sql_queries.sql
+customer_bahvior_analysis.sql
 ```
 
 ---
@@ -94,7 +94,7 @@ customer_behavior_sql_queries.sql
 ### Power BI Dashboard
 - Open:
 ```
-customer_behavior_dashboard.pbix
+customer_shopping_analysis.pbix
 ```
 - Connect it to the PostgreSQL database
 - Explore interactive visuals
