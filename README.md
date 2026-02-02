@@ -1,104 +1,144 @@
-# 🛍️ Customer Shopping Behavior Analysis
+👩🏻‍🎓 Customer Shopping Behavior Analysis | Data Analytics Portfolio Project
 
-## 🔍 Project Overview
-This project performs an in-depth **data analytics and business intelligence analysis** on customer shopping transactions to identify purchasing patterns, customer segments, and revenue drivers.
+This repository contains my **first hands-on Data Analytics portfolio project**, created as part of my learning journey in Data Analytics.  
+As a student, my objective was to apply concepts of **Python, SQL, and Power BI** on a real-world dataset and understand how an **end-to-end analytics workflow** is executed in professional environments.
 
-The analysis follows a complete **end-to-end data analytics pipeline**, starting from raw data cleaning to SQL-based business queries and interactive visualization using Power BI.
-
----
-
-## 🗂️ Dataset Overview
-- **Total Records:** ~3,900 transactions  
-- **Total Features:** 18 columns  
-
-### Data Includes:
-- **Customer Attributes:** Age, Gender, Location, Subscription Status  
-- **Transaction Details:** Item Purchased, Category, Purchase Amount, Season, Size, Color  
-- **Behavioral Metrics:** Discount Applied, Review Rating, Shipping Type, Purchase Frequency  
-
-📌 *Missing values were present only in the Review Rating column.*
+This project focuses on converting raw customer transaction data into meaningful insights that can support business decision-making.
 
 ---
 
-## 🧹 Data Cleaning & Preprocessing (Python)
-Performed using **Pandas** in Jupyter Notebook.
+## 🎯 Purpose of the Project
+The main goals of this project were to:
 
-### Key Steps:
-- Inspected schema and data types using `info()`  
-- Statistical overview using `describe()`  
-- Handled missing values using **median imputation by product category**  
-- Standardized column names using `snake_case`  
-- Removed redundant features after logical validation  
-- Created new features:
-  - `age_group`
-  - `purchase_frequency_days`
+- Practice real-world **data cleaning and preprocessing**
+- Perform **business-oriented data analysis using SQL**
+- Build an **interactive Power BI dashboard**
+- Learn how to **communicate insights** through reports and visualizations
 
-The cleaned dataset was then exported for SQL-based analysis.
+This project helped me connect theoretical knowledge with practical implementation.
 
 ---
 
-## 🧠 Exploratory Data Analysis (EDA)
-EDA focused on understanding:
-- Distribution of purchase amounts  
-- Impact of age and gender on spending  
-- Discount usage patterns  
-- Customer purchase frequency  
+## 📌 Project Overview
+The dataset contains approximately **3,900 customer purchase records** across multiple product categories.
 
-Visual and statistical techniques were used to identify trends and anomalies.
-
----
-
-## 🗄️ SQL Analysis (PostgreSQL)
-The cleaned dataset was loaded into **PostgreSQL** to perform structured business analysis.
-
-### Key SQL Queries:
-- Revenue contribution by gender and age group  
-- Subscriber vs non-subscriber spending comparison  
-- Identification of high-spending discount users  
-- Top-rated products based on average reviews  
-- Shipping type vs average purchase value  
-- Customer segmentation into:
-  - New  
-  - Returning  
-  - Loyal  
-
-SQL queries were optimized for readability and business interpretation.
+Through this project, I analyzed:
+- Customer demographics and spending behavior
+- Subscription vs non-subscription purchasing patterns
+- Impact of discounts and shipping types
+- Product performance and customer loyalty
 
 ---
 
-## 📊 Power BI Dashboard
-An interactive **Power BI dashboard** was built to communicate insights effectively.
+## 🔄 Project Workflow
 
-### Dashboard Highlights:
-- Revenue distribution by customer demographics  
-- Customer segmentation overview  
-- Product category performance  
-- Subscription-based revenue comparison  
-- Discount and shipping impact analysis  
-
-📌 *The dashboard is designed for non-technical stakeholders.*
-
----
-
-## 🛠️ Tools & Technologies
-- **Python:** Pandas, NumPy, Matplotlib  
-- **SQL:** PostgreSQL  
-- **BI Tool:** Power BI  
-- **Environment:** Jupyter Notebook  
+### 1️⃣ Data Preparation & Exploratory Data Analysis (Python)
+- Loaded and explored the dataset using Pandas
+- Checked data types, distributions, and missing values
+- Handled missing values in the Review Rating column using **median imputation by category**
+- Standardized column names using snake_case
+- Performed feature engineering:
+  - Created `age_group`
+  - Created `purchase_frequency_days`
 
 ---
 
-## 🎯 Key Technical Learnings
-- Building scalable data cleaning pipelines  
-- Writing business-driven SQL queries  
-- Transforming raw data into analytical datasets  
-- Creating insight-focused dashboards  
-- Understanding how analytics supports business decisions  
+### 2️⃣ Data Analysis Using SQL (PostgreSQL)
+After cleaning the data, it was loaded into **PostgreSQL** for structured analysis.
+
+Key analyses performed:
+- Revenue analysis by age group and gender
+- Subscriber vs non-subscriber spending comparison
+- Customer segmentation (New, Returning, Loyal)
+- Identification of high-value and discount-dependent products
+- Shipping type vs average purchase amount analysis
 
 ---
 
-## 🚀 Future Scope
-- Predictive modeling on customer purchasing behavior  
-- Advanced SQL analytics (CTEs, window functions)  
-- Automated data pipelines  
-- Enhanced dashboard interactivity  
+### 3️⃣ Data Visualization (Power BI)
+An interactive **Power BI dashboard** was created to present insights such as:
+- Revenue distribution across demographics
+- Customer segmentation and loyalty
+- Product and category performance
+- Subscription-based revenue comparison
+
+The dashboard is designed to be easily understandable for non-technical users.
+
+---
+
+### 4️⃣ Reporting & Insights
+A detailed project report was prepared that includes:
+- Key findings from the analysis
+- Business insights derived from the data
+- Practical recommendations based on observed trends
+
+---
+
+## 🛠️ Tools & Technologies Used
+- **Python:** Pandas, NumPy, Matplotlib
+- **SQL:** PostgreSQL
+- **BI Tool:** Power BI
+- **Environment:** Jupyter Notebook
+
+---
+
+## 🧪 How to Use This Repository
+
+### Clone the Repository
+```bash
+git clone https://github.com/your-username/customer-shopping-behavior-analysis.git
+cd customer-shopping-behavior-analysis
+```
+
+### Python Analysis
+Open the notebook:
+```
+Customer_Shopping_Behavior_Analysis.ipynb
+```
+
+This notebook includes:
+- Data import and exploration
+- Data cleaning and preprocessing
+- Feature engineering
+- Loading cleaned data into PostgreSQL
+
+---
+
+### SQL Analysis
+- Create a PostgreSQL database
+- Execute queries from:
+```
+customer_behavior_sql_queries.sql
+```
+
+---
+
+### Power BI Dashboard
+- Open:
+```
+customer_behavior_dashboard.pbix
+```
+- Connect it to the PostgreSQL database
+- Explore interactive visuals
+
+---
+
+## 📚 Key Learnings
+- Understanding the complete data analytics lifecycle
+- Writing SQL queries for real business problems
+- Cleaning and transforming real-world datasets
+- Creating dashboards for insight communication
+- Integrating Python, SQL, and Power BI in one project
+
+---
+
+## 🔮 Future Improvements
+- Add advanced SQL queries (CTEs, window functions)
+- Perform predictive analysis
+- Improve dashboard interactivity
+- Work with larger and more complex datasets
+
+---
+
+⭐ Thank you for taking the time to explore my project.  
+Any feedback or suggestions are welcome!
