@@ -52,7 +52,7 @@ Through this project, I analyzed:
 ---
 
 ## 🛠️ Tools & Technologies Used
-- **Python:** Pandas, NumPy, Matplotlib
+- **Python:** Pandas
 - **SQL:** PostgreSQL
 - **BI Tool:** Power BI
 - **Environment:** Jupyter Notebook
