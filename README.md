@@ -32,45 +32,22 @@ Through this project, I analyzed:
 
 ## 🔄 Project Workflow
 
-### 1️⃣ Data Preparation & Exploratory Data Analysis (Python)
-- Loaded and explored the dataset using Pandas
-- Checked data types, distributions, and missing values
-- Handled missing values in the Review Rating column using **median imputation by category**
-- Standardized column names using snake_case
-- Performed feature engineering:
-  - Created `age_group`
-  - Created `purchase_frequency_days`
+1️⃣ **Data Preparation & EDA (Python)**  
+- Loaded and explored the dataset  
+- Cleaned data and handled missing values  
+- Performed feature engineering (age groups, purchase frequency)
 
----
+2️⃣ **Business Analysis (SQL – PostgreSQL)**  
+- Loaded cleaned data into PostgreSQL  
+- Wrote SQL queries to analyze revenue, customer segments, and purchase behavior
 
-### 2️⃣ Data Analysis Using SQL (PostgreSQL)
-After cleaning the data, it was loaded into **PostgreSQL** for structured analysis.
+3️⃣ **Data Visualization (Power BI)**  
+- Built an interactive dashboard  
+- Visualized revenue trends, customer segmentation, and product performance
 
-Key analyses performed:
-- Revenue analysis by age group and gender
-- Subscriber vs non-subscriber spending comparison
-- Customer segmentation (New, Returning, Loyal)
-- Identification of high-value and discount-dependent products
-- Shipping type vs average purchase amount analysis
-
----
-
-### 3️⃣ Data Visualization (Power BI)
-An interactive **Power BI dashboard** was created to present insights such as:
-- Revenue distribution across demographics
-- Customer segmentation and loyalty
-- Product and category performance
-- Subscription-based revenue comparison
-
-The dashboard is designed to be easily understandable for non-technical users.
-
----
-
-### 4️⃣ Reporting & Insights
-A detailed project report was prepared that includes:
-- Key findings from the analysis
-- Business insights derived from the data
-- Practical recommendations based on observed trends
+4️⃣ **Reporting & Insights**  
+- Summarized key findings  
+- Provided business insights and recommendations
 
 ---
 
