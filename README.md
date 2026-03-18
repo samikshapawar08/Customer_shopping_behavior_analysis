@@ -29,7 +29,6 @@ It highlights my ability to:
   <img src="images/dashboard.png" width="800"/>
 </p>
 
-> 💡 *Tip: Replace with your actual image path (e.g., `/images/dashboard1.png`)*
 
 ---
 
@@ -115,9 +114,13 @@ git clone https://github.com/samikshapawar08/Customer_shopping_behavior_analysis
 ## 📚 Key Learnings
 
 ✔️ End-to-end analytics pipeline
+
 ✔️ Writing business-focused SQL queries
+
 ✔️ Data cleaning & transformation
+
 ✔️ Dashboard storytelling
+
 ✔️ Real-world problem solving
 
 ---
@@ -134,7 +137,7 @@ git clone https://github.com/samikshapawar08/Customer_shopping_behavior_analysis
 ## 🤝 Connect With Me
 
 <p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"></a>
+  <a href="www.linkedin.com/in/samiksha-pawar-aa1018266"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"></a>
   <a href="#"><img src="https://img.shields.io/badge/Email-Contact-1b1f6b?style=for-the-badge&logo=gmail"></a>
 </p>
 
